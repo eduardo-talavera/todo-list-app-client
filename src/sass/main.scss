@@ -1,0 +1,29 @@
+@import "custom";
+@import "animations";
+
+.app {
+  min-height: 100vh;
+  .search-box {
+    border-radius: 20px;
+    input {
+      border: none;
+      border-radius: 20px;
+      &:focus{
+        outline:none !important;
+        outline-width: 0 !important;
+        box-shadow: none;
+        -moz-box-shadow: none;
+        -webkit-box-shadow: none
+      }
+    }
+    button {
+      &:focus{
+        outline:none !important;
+        outline-width: 0 !important;
+        box-shadow: none;
+        -moz-box-shadow: none;
+        -webkit-box-shadow: none
+      }
+    }
+  }
+}

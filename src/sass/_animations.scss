@@ -1,0 +1,16 @@
+.animationRemove{
+  animation-duration: 1s;
+  animation-name: remove;
+}
+
+@keyframes remove {
+  from {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+
+  to {
+    transform: translateX(100px);
+    opacity: 0;
+  }
+}
